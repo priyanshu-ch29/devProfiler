@@ -143,13 +143,6 @@ const User = () => {
       <div>
         <h1 className=" text-xl font-semibold m-4">Showing: Top Repos</h1>
         <div className="grid grid-cols-3 place-items-center w-[90%] mx-auto">
-          {/* {repoData.map((e, index) => {
-            return (
-              <>
-                <RepoData key={index} data={e} />
-              </>
-            );
-          })} */}
           {repoData
             ? repoData
                 ?.sort((a, b) => b.stargazers_count - a.stargazers_count)
@@ -167,7 +160,7 @@ const User = () => {
           <a
             target="_blank"
             className="underline text-blue-500"
-            href="https://github.com/priyanshu-ch29/"
+            href="https://github.com/priyanshu-ch29/devProfiler"
           >
             here
           </a>

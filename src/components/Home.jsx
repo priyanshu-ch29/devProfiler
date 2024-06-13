@@ -41,7 +41,7 @@ const Home = () => {
             <a
               target="_blank"
               className="underline text-blue-500"
-              href="https://github.com/priyanshu-ch29/"
+              href="https://github.com/priyanshu-ch29/devProfiler"
             >
               here
             </a>

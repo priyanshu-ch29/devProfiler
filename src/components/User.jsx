@@ -79,7 +79,7 @@ const User = () => {
         </div>
         <div className=" flex justify-end pt-5 pr-[5rem]">
           <Link to="/">
-            <button className="fixed bg-lime-600 text-white p-2 w-[4%] rounded-lg">
+            <button className="fixed bg-lime-600 text-white p-2 w-[4%] rounded-lg max-lg:w-[50px] max-md:w-[50px]">
               Home
             </button>
           </Link>
@@ -102,7 +102,7 @@ const User = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center gap-10 mt-10 text-xl text-white w-[40%] mx-auto shadow-xl">
+        <div className="flex justify-center items-center gap-10 mt-10 text-xl text-white w-[40%] mx-auto shadow-xl max-md:flex-col max-md:w-[70%] max-md:justify-between">
           <div className=" flex justify-center items-center gap-10">
             <div>
               <h1>Total Repo</h1>
@@ -142,7 +142,7 @@ const User = () => {
       </div>
       <div>
         <h1 className=" text-xl font-semibold m-4">Showing: Top Repos</h1>
-        <div className="grid grid-cols-3 place-items-center w-[90%] mx-auto">
+        <div className="grid grid-cols-3 place-items-center w-[90%] mx-auto max-lg:grid-cols-2 max-md:grid-cols-1">
           {repoData
             ? repoData
                 ?.sort((a, b) => b.stargazers_count - a.stargazers_count)

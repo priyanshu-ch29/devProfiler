@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;1,400;1,700&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.home{
+    background-color: #2a2b2f;
+}
+
+.user{
+    background-color: #2a2b2f;
+}
+::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    
+    background-color: #2a2b2f;
+  }
+  
